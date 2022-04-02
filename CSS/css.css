@@ -1,0 +1,104 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+    background-color: whitesmoke;
+    margin: 50px auto;
+}
+@media (max-width : 900px) {
+    .container { 
+        width: 90%;
+    }
+
+}
+form.contact_us{
+    background-color: black;
+    padding: 50px 0px 27px 32px;
+}
+
+input , textarea {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+input:not([type ="submit"]){
+    padding-left: 30px;
+}
+
+/* user_icon  mobile_icon send_icon Email_icon  */
+
+        i {
+            height: 0px;
+            float: left;
+            position: relative;
+            top: 11px;
+            left: 6px;
+        }  
+
+        i.send_icon {
+            left: 35%;
+            top: 17px;
+            color: white;
+        }
+
+textarea{
+    height: 100px;
+}
+
+input[type = "submit"] {
+    width: 56%;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 34%;
+    border: none;
+    background-color: rgb(90, 85, 85);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+@media (max-width : 900px) {
+    input[type = "submit"] { 
+        font-size: 16px;
+    }
+
+}
+
+
+input[type = "submit"]:hover{
+   color: crimson;
+}
+
+
+.Error {
+    background-color: darksalmon;
+    color: red;
+    font-size: 17px;
+    width: 90%;
+    margin: 0px 0px 19px 2px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    padding: 5px 0px 5px 15px;
+}
+
+ .txt_box .Custom_Error{
+    background-color: darksalmon;
+    color: red;
+    font-size: 17px;
+    width: 90%;
+    margin: 0px 0px 19px 2px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    padding: 5px 0px 5px 15px;
+    display: none ;
+} 
